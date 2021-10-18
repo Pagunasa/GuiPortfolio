@@ -15,6 +15,9 @@ gameScene.create = function() {
     
     // change the origin
     bg.setOrigin(0,0);
+
+    // adding the player
+    let player = this.add.sprite(70, 180, 'player');
 }
 
 // set config of the game
