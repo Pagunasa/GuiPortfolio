@@ -1,16 +1,69 @@
 <!doctype html>
-<html lang="en">
+<html class="bg-all" lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Chesse defense</title>
-    <style>
-      canvas {
-        width: 100%;
-      }
-    </style>
+    <title>Gui Martínez Jiménez - Game Programming and Design Portfolio </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/MyStyle.css">
+    <script src="https://kit.fontawesome.com/231612722b.js" crossorigin="anonymous"></script>
 </head>
+<nav class="navbar navbar-expand-md bg-body-navbar sticky-top navbar-overlap-sticky">
+  <div class="container-fluid">
+    <a class="navbar-brand white-icon ps-title fs-4" href="#">Gui Martínez</a>
+    <button class="navbar-toggler button-no-border" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <i class="fa fa-solid fa-bars fa-lg white-icon"></i>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-body bg-body-offcanvas">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item" data-bs-dismiss="offcanvas">
+            <a class="nav-link active white-icon offcanvas-item-pb offcanvas-item-ps" aria-current="About" href="#AboutMe">
+              <div class="offcanvas-item-icon ps-nav-item">
+                <i class="fa fa-solid fa-user fa-lg"></i>
+              </div>
+              <span class="ps-2"> About </span>
+            </a>
+          </li>
+          <li class="nav-item" data-bs-dismiss="offcanvas">
+            <a class="nav-link active white-icon offcanvas-item-pb offcanvas-item-ps" aria-current="Projects" href="#Projects">
+              <div class="offcanvas-item-icon ps-nav-item">
+                <i class="fa fa-solid fa-gamepad fa-lg"></i>
+              </div>
+              <span class="ps-2"> Projects </span>
+            </a>
+          </li>
+          <li class="nav-item" data-bs-dismiss="offcanvas">
+            <a class="nav-link active white-icon offcanvas-item-pb offcanvas-item-ps" aria-current="Projects" href="#Contact">
+              <div class="offcanvas-item-icon">
+                <i class="fa fa-solid fa fa-comments fa-lg"></i>
+              </div>
+              <span class="ps-2"> Contact </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
 <body>
-  <script src="js/phaser.js"></script>
-  <script src="js/game.js"></script>
+  <div class="ratio ratio-16x9 bg-all">
+    <video loop muted autoplay>
+      <source src="Movies/Opening.mp4" type="video/mp4"></video>
+    </video>
+  </div>
+  <div class="container-fluid bg-about-me">
+    <div name="AboutMe" id="AboutMe" class="white-color about-me-content">
+      <p class="h1 about-me-title">About me</p>
+      Hi I'm Gui! A game programmer and dessigner from Barcelona, since I was little I love the world of videogames and I've always wanted to learn how to create my own games. I start playing with gamemaker at 14 and created my first videogame when I was 17 as a final project for high school, it was a very simple legend of zelda like game with a top-down camera. I graduated from <a class="white-color" href="https://mastervideojuegos.bsm.upf.edu/">UPF BSM</a> studying the master Videogames: Design, Creation and Programming and from <a class="white-color" href="https://www.upf.edu/web/etic/grau-en-enginyeria-en-informatica">UPF</a> where I study Computer Engineering.<p></p>
+
+      In this website you'll be able to see some of the projects that I've have the oportunity to work and some others that are some personal things just to experiment and have fun. I have a strong perseverance and motivation in learning new tings and improve and my big imagination allways brings me some crazy ideas. I allways like to polish my work to achieve the best possible version.<p></p>
+
+      If you have any questions fell free to <a class="white-color" href="#">contact me <i class="fa fa-solid fa fa-comments"></i></a>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
