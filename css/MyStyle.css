@@ -23,6 +23,12 @@
   background-color: rgb(1, 71, 0) !important;
 }
 
+.bg-projects {
+  margin-top: 3rem !important;
+  background-color: rgb(20, 20, 20) !important;
+  margin-bottom: 3rem !important;
+}
+
 /* Navbar */
 .navbar-overlap-sticky {
   height: 56px !important;
@@ -41,6 +47,32 @@
   padding-left: 5rem !important;
   padding-right: 5rem !important;
   padding-bottom: 1.5rem !important;
+}
+
+/* Projects */
+.projects-title {
+  padding-top: 1rem !important;
+  padding-bottom: 0.75rem !important;
+  text-align: center;
+}
+
+.projects-banner {
+  text-align: center;
+  padding-bottom: 1.5rem !important;
+}
+
+.projects-cards {
+  text-align: center;
+  color: white;
+  margin-bottom: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.project-card {
+  text-align: center;
+  border: none;
+  margin-bottom: 3rem;
 }
 
 /* Hamburger button */
@@ -133,4 +165,20 @@
   .ps-title {
     padding-left: 0rem !important;
   }
+}
+
+/* Loader */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 30%;
+  background-color: #192231;
+  z-index: 99;
+}
+
+.loader-content {
+  min-height: 100% !impoant;
 }

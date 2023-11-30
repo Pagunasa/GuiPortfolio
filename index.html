@@ -7,45 +7,57 @@
     <link rel="stylesheet" href="css/MyStyle.css">
     <script src="https://kit.fontawesome.com/231612722b.js" crossorigin="anonymous"></script>
 </head>
-<nav class="navbar navbar-expand-md bg-body-navbar sticky-top navbar-overlap-sticky">
-  <div class="container-fluid">
-    <a class="navbar-brand white-icon ps-title fs-4" href="#">Gui Martínez</a>
-    <button class="navbar-toggler button-no-border" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <i class="fa fa-solid fa-bars fa-lg white-icon"></i>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-body bg-body-offcanvas">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item" data-bs-dismiss="offcanvas">
-            <a class="nav-link active white-icon offcanvas-item-pb offcanvas-item-ps" aria-current="About" href="#AboutMe">
-              <div class="offcanvas-item-icon ps-nav-item">
-                <i class="fa fa-solid fa-user fa-lg"></i>
-              </div>
-              <span class="ps-2"> About </span>
-            </a>
-          </li>
-          <li class="nav-item" data-bs-dismiss="offcanvas">
-            <a class="nav-link active white-icon offcanvas-item-pb offcanvas-item-ps" aria-current="Projects" href="#Projects">
-              <div class="offcanvas-item-icon ps-nav-item">
-                <i class="fa fa-solid fa-gamepad fa-lg"></i>
-              </div>
-              <span class="ps-2"> Projects </span>
-            </a>
-          </li>
-          <li class="nav-item" data-bs-dismiss="offcanvas">
-            <a class="nav-link active white-icon offcanvas-item-pb offcanvas-item-ps" aria-current="Projects" href="#Contact">
-              <div class="offcanvas-item-icon">
-                <i class="fa fa-solid fa fa-comments fa-lg"></i>
-              </div>
-              <span class="ps-2"> Contact </span>
-            </a>
-          </li>
-        </ul>
+<body class="bg-all">
+  <!-- Loader -->
+  <div class="loader" id="MyLoader">
+      <div class="container-fluid text-center loader-content fill">
+          <div class="spinner-border text-light" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+      </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav id="MyNavbar" class="navbar navbar-expand-md bg-body-navbar ">
+    <div class="container-fluid">
+      <a class="navbar-brand white-icon ps-title fs-4" href="#">Gui Martínez</a>
+      <button class="navbar-toggler button-no-border" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <i class="fa fa-solid fa-bars fa-lg white-icon"></i>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-body bg-body-offcanvas">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item" data-bs-dismiss="offcanvas">
+              <a class="nav-link active white-icon offcanvas-item-pb offcanvas-item-ps" aria-current="About" href="#AboutMe">
+                <div class="offcanvas-item-icon ps-nav-item">
+                  <i class="fa fa-solid fa-user fa-lg"></i>
+                </div>
+                <span class="ps-2"> About </span>
+              </a>
+            </li>
+            <li class="nav-item" data-bs-dismiss="offcanvas">
+              <a class="nav-link active white-icon offcanvas-item-pb offcanvas-item-ps" aria-current="Projects" href="#Projects">
+                <div class="offcanvas-item-icon ps-nav-item">
+                  <i class="fa fa-solid fa-gamepad fa-lg"></i>
+                </div>
+                <span class="ps-2"> Projects </span>
+              </a>
+            </li>
+            <li class="nav-item" data-bs-dismiss="offcanvas">
+              <a class="nav-link active white-icon offcanvas-item-pb offcanvas-item-ps" aria-current="Projects" href="#Contact">
+                <div class="offcanvas-item-icon">
+                  <i class="fa fa-solid fa fa-comments fa-lg"></i>
+                </div>
+                <span class="ps-2"> Contact </span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-</nav>
-<body>
+  </nav>
+
+  <!-- Looped video background -->
   <div class="ratio ratio-16x9 bg-all">
     <video loop muted autoplay>
       <source src="Movies/Opening.mp4" type="video/mp4"></video>
@@ -61,9 +73,71 @@
       If you have any questions fell free to <a class="white-color" href="#">contact me <i class="fa fa-solid fa fa-comments"></i></a>
     </div>
   </div>
+  <div class="container-fluid bg-projects">
+    <div name="Projects" id="Projects" class="white-color projects-banner">
+        <p class="h1 projects-title">Projects</p>
+        To learn more about a project just click on it.
+    </div>
+  </div>
+
+  <div class="container-fluid projects-cards">
+      <div id="row-project-cards" class="row">
+
+        <div class="col-sm-12 col-md-8 col-lg-6 col-xl-4">
+          <div class="card project-card">
+            <img src="Images/RememberMeow.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Remember Meow</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-8 col-lg-6 col-xl-4">
+          <div class="card project-card">
+            <img src="Images/RememberMeow.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Dixie</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-8 col-lg-6 col-xl-4">
+            <div class="card project-card">
+            <img src="Images/RememberMeow.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">IA Custom Engine</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-8 col-lg-6 col-xl-4">
+          <div class="card project-card">
+            <img src="Images/RememberMeow.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Cardgeon</p>
+            </div>
+          </div>     
+        </div>
+
+        <div class="col-sm-12 col-md-8 col-lg-6 col-xl-4">
+            <div class="card project-card">
+            <img src="Images/RememberMeow.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Neera's Quest</p>
+            </div>
+          </div> 
+        </div>
+
+        <div class="col-sm-12 col-md-8 col-lg-6 col-xl-4">
+          Neera's Quest
+        </div>
+
+      </div>
+  </div>
 
   <script src="js/jquery-3.7.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/MyJs.js"></script>
 </body>
 </html>
