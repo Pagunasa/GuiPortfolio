@@ -72,7 +72,9 @@
 .project-card {
   text-align: center;
   border: none;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+  background-color: transparent !important;
+  color: white;
 }
 
 /* Hamburger button */
@@ -181,4 +183,138 @@
 
 .loader-content {
   min-height: 100% !impoant;
+}
+
+/* Modals */
+.modal-main-title {
+  font-size: 60px;
+}
+
+@media (max-width: 991px) {
+  .modal-main-title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 490px) {
+  .modal-main-title {
+    font-size: 35px;
+  }
+}
+
+.project-info {
+  margin-top: 20px;
+}
+
+.project-info-cell {
+  max-width: 300px !important;
+}
+
+.project-info-cell-separation {
+  padding-left: 20px;
+}
+
+.table-info-project {
+  margin: auto;
+  text-align: left !important;
+}
+
+.modal-body-margin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.modal-description {
+  margin-bottom: 20px !important;
+}
+
+.modal-link-to-test {
+  margin-top: 20px;
+  margin-bottom: 20px !important;
+}
+
+.project-video {
+  width: auto;
+}
+
+.btn-modal {
+  border: 0px solid transparent;
+  background-color: transparent !important;
+  padding: 0px 0px;
+  color: white;
+}
+
+.title-project {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: 0px;
+  background-color: rgba(0,0,0,0.6);
+  font-size: 30px;
+}
+
+.project-image {
+  transition: transform .2s; 
+}
+
+.project-image:hover {
+  transform: scale(1.1);
+}
+
+/*Tags*/
+.project-tags {
+  margin-bottom: 1rem;
+}
+
+.project-tag {
+  color: white;
+  border: 0px solid transparent;
+  border-radius: 5px;
+  width: max-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.project-tag-separation {
+  margin-right: 15px;  
+}
+
+.unreal-tag {
+  background-color: rgb(41, 84, 255);  
+}
+
+.cplusplus-tag {
+  background-color: rgb(78, 6, 116); 
+}
+
+.university-tag {
+  background-color: rgb(116, 6, 39);  
+}
+
+
+/* Contributions */
+.container-contributions {
+    width: max-content;
+    margin-bottom: 2rem;
+}
+
+.table-contributions>:not(caption)>*>* {
+  border: 0px solid transparent;
+  color: white;
+  background-color: transparent;
+}
+
+.td-contribution {
+  max-width: 330px;
+}
+
+.project-resume {
+  margin-bottom: 1.1rem;
+}
+
+#rm-modal {
+  background-color: rgb(40, 40, 40);
+  color: white;
 }
