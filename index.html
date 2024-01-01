@@ -60,17 +60,17 @@
   <!-- Looped video background -->
   <div class="ratio ratio-16x9 bg-all">
     <video loop muted autoplay>
-      <source src="Movies/Opening.mp4" type="video/mp4"></video>
+      <source src="Movies/NewOpening.mp4" type="video/mp4"></video>
     </video>
   </div>
   <div class="container-fluid bg-about-me">
     <div name="AboutMe" id="AboutMe" class="white-color about-me-content">
       <p class="h1 about-me-title">About me</p>
-      Hi I'm Gui! A game programmer and dessigner from Barcelona, since I was little I love the world of videogames and I've always wanted to learn how to create my own games. I start playing with gamemaker at 14 and created my first videogame when I was 17 as a final project for high school, it was a very simple legend of zelda like game with a top-down camera. I graduated from <a class="white-color" href="https://mastervideojuegos.bsm.upf.edu/">UPF BSM</a> studying the master Videogames: Design, Creation and Programming and from <a class="white-color" href="https://www.upf.edu/web/etic/grau-en-enginyeria-en-informatica">UPF</a> where I study Computer Engineering.<p></p>
+      Hi I'm Gui! A game programmer and dessigner from Barcelona, since I was little I love the world of videogames and I've always wanted to learn how to create my own games. I start playing with gamemaker at 14 and created my first videogame when I was 17 as a final project for high school, it was a very simple legend of zelda like game with a top-down camera. I graduated from <a class="white-color" target="_blank" href="https://mastervideojuegos.bsm.upf.edu/"><b>UPF BSM</b></a> studying the master Videogames: Design, Creation and Programming and from <a class="white-color" target="_blank" href="https://www.upf.edu/web/etic/grau-en-enginyeria-en-informatica"><b>UPF</b></a> where I study Computer Engineering.<p></p>
 
       In this website you'll be able to see some of the projects that I've have the oportunity to work and some others that are some personal things just to experiment and have fun. I have a strong perseverance and motivation in learning new tings and improve and my big imagination allways brings me some crazy ideas. I allways like to polish my work to achieve the best possible version.<p></p>
 
-      If you have any questions fell free to <a class="white-color" href="#">contact me <i class="fa fa-solid fa fa-comments"></i></a>
+      If you have any questions fell free to <a class="white-color" href="#"><b>contact me</b> <i class="fa fa-solid fa fa-comments"></i></a>
     </div>
   </div>
   <div class="container-fluid bg-projects">
@@ -155,8 +155,8 @@
               </button>
             </div>
             <div class="d-flex justify-content-center project-tags">
-              <div class="project-tag project-tag-separation unreal-tag">JS</div>
-              <div class="project-tag project-tag-separation cplusplus-tag">HTML/CSS</div>
+              <div class="project-tag project-tag-separation js-tag">JS</div>
+              <div class="project-tag project-tag-separation html-css-tag">HTML/CSS</div>
               <div class="project-tag university-tag">University</div>
             </div>
             <div class="project-resume">Online graph-oriented particle engine</div>
@@ -176,136 +176,376 @@
         </div>
 
         <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-0 col-xl-4 offset-xl-0">
-            <div class="card project-card">
-            <img src="Images/RememberMeow.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">IA Custom Engine</p>
+            <div class="card project-card overflow-hidden">
+              <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#AICustomModal">
+                <div class="project-image">
+                  <img src="Images/IACustomEngine.png" class="card-img-top" alt="...">                  
+                </div>
+                <div class="title-project">AI Custom Engine</div>
+              </button>
             </div>
-          </div>
+            <div class="d-flex justify-content-center project-tags">
+              <div class="project-tag project-tag-separation js-tag">C++</div>
+              <div class="project-tag project-tag-separation custom-engine-tag">Custom Engine</div>
+              <div class="project-tag university-tag">University</div>
+            </div>
+            <div class="project-resume">AI with LUA, shared blackboards and Behavior trees </div>
+            <div class="d-flex justify-content-center">
+              <table class="table table-sm table-contributions  container-contributions">
+                <tbody>
+                  <tr>
+                    <td colspan="2"> My contributions: </td>
+                  </tr>
+                  <tr>
+                    <td class="td-contribution-icon"> <i class="fa fa-sm fa-solid fa-circle icon-contributions"></i> </td>
+                    <td class="td-contribution text-start">AI design and code</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
         </div>
 
         <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-0 col-xl-4 offset-xl-0">
-          <div class="card project-card">
-            <img src="Images/RememberMeow.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Cardgeon</p>
+            <div class="card project-card overflow-hidden">
+              <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#CardgeonModal">
+                <div class="project-image">
+                  <img src="Images/Cardgeon.png" class="card-img-top" alt="...">                  
+                </div>
+                <div class="title-project">Cardgeon</div>
+              </button>
             </div>
-          </div>     
+            <div class="d-flex justify-content-center project-tags">
+              <div class="project-tag project-tag-separation unreal-tag">LUA</div>
+              <div class="project-tag project-tag-separation cplusplus-tag">LÖVE</div>
+            </div>
+            <div class="project-resume">Magic and Sword deckbuilding game</div>
+            <div class="d-flex justify-content-center">
+              <table class="table table-sm table-contributions  container-contributions">
+                <tbody>
+                  <tr>
+                    <td colspan="2"> My contributions: </td>
+                  </tr>
+                  <tr>
+                    <td class="td-contribution-icon"> <i class="fa fa-sm fa-solid fa-circle icon-contributions"></i> </td>
+                    <td class="td-contribution text-start">Design and code</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
         </div>
 
         <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-0 col-xl-4 offset-xl-0">
-          <div class="card project-card">
-            <img src="Images/RememberMeow.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Neera's Quest</p>
+            <div class="card project-card overflow-hidden">
+              <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#NeerasModal">
+                <div class="project-image">
+                  <img src="Images/NeerasQuest.png" class="card-img-top" alt="...">                  
+                </div>
+                <div class="title-project">Neera's Mission</div>
+              </button>
             </div>
-          </div> 
-        </div>
-
-        <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-0 col-xl-4 offset-xl-0">
-          Neera's Quest
+            <div class="d-flex justify-content-center project-tags">
+              <div class="project-tag project-tag-separation js-tag">C++</div>
+              <div class="project-tag project-tag-separation custom-engine-tag">Custom Engine</div>
+              <div class="project-tag university-tag">University</div>
+            </div>
+            <div class="project-resume">Turn based game on a Spaceship</div>
+            <div class="d-flex justify-content-center">
+              <table class="table table-sm table-contributions  container-contributions">
+                <tbody>
+                  <tr>
+                    <td colspan="2"> My contributions: </td>
+                  </tr>
+                  <tr>
+                    <td class="td-contribution-icon"> <i class="fa fa-sm fa-solid fa-circle icon-contributions"></i> </td>
+                    <td class="td-contribution text-start">Turn system</td>
+                  </tr>
+                  <tr>
+                    <td class="td-contribution-icon"> <i class="fa fa-sm fa-solid fa-circle icon-contributions"></i> </td>
+                    <td class="td-contribution text-start">Textures and models</td>
+                  </tr>
+                  <tr>
+                    <td class="td-contribution-icon"> <i class="fa fa-sm fa-solid fa-circle icon-contributions"></i> </td>
+                    <td class="td-contribution text-start">Tool to create maps</td>
+                  </tr>
+                  <tr>
+                    <td class="td-contribution-icon"> <i class="fa fa-sm fa-solid fa-circle icon-contributions"></i> </td>
+                    <td class="td-contribution text-start">Minimap</td>
+                  </tr>
+                  <tr>
+                    <td class="td-contribution-icon"> <i class="fa fa-sm fa-solid fa-circle icon-contributions"></i> </td>
+                    <td class="td-contribution text-start">Player controller</td>
+                  </tr>
+                  <tr>
+                    <td class="td-contribution-icon"> <i class="fa fa-sm fa-solid fa-circle icon-contributions"></i> </td>
+                    <td class="td-contribution text-start">Enemies design</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
         </div>
 
       </div>
   </div>
 
-
-<!-- Modal RememberMeow -->
-<div id="RememberMeowModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-dialog" role="document">
-      <div id="rm-modal" class="modal-content">
-        <div class="text-center">
-          <h1 class="modal-title modal-main-title">Remember Meow</h1>
-          <div class="project-info row">
-            <div class="">
-              <table class="table-info-project">
-                <tr>
-                  <td class="project-info-cell"><b>Software used</b></td>
-                  <td class="project-info-cell project-info-cell-separation"> Unreal engine 5</td>
-                </tr>
-                <tr>
-                  <td class="project-info-cell"><b>Languages used</b></td>
-                  <td class="project-info-cell project-info-cell-separation">C++, Blueprints</td>
-                </tr>
-                <tr>
-                  <td class="project-info-cell"><b>Primary Roles</b></td>
-                  <td class="project-info-cell project-info-cell-separation">Gameplay programming, VFX</td>
-                </tr>
-              </table>
+  <!-- Modal RememberMeow -->
+  <div id="RememberMeowModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-dialog" role="document">
+        <div id="rm-modal" class="modal-content">
+          <div class="text-center">
+            <h1 class="modal-title modal-main-title">Remember Meow</h1>
+            <div class="project-info row">
+              <div class="">
+                <table class="table-info-project">
+                  <tr>
+                    <td class="project-info-cell"><b>Software used</b></td>
+                    <td class="project-info-cell project-info-cell-separation"> Unreal engine 5</td>
+                  </tr>
+                  <tr>
+                    <td class="project-info-cell"><b>Languages used</b></td>
+                    <td class="project-info-cell project-info-cell-separation">C++, Blueprints</td>
+                  </tr>
+                  <tr>
+                    <td class="project-info-cell"><b>Primary Roles</b></td>
+                    <td class="project-info-cell project-info-cell-separation">Gameplay programming, VFX</td>
+                  </tr>
+                </table>
+              </div>
             </div>
           </div>
+          <div class="modal-body modal-body-margin">
+
+            <div class="modal-description">
+              Remember Meow is the result of the master of videogames in the UPF BSM. In this project the team was of 9 members, 3 artists and 6 programmers. Thanks to this project I achieve a more realistic and profesional approach to videogame design.
+            </div>
+
+            <div class="modal-link-to-test text-center">
+              Download the game from our <a class="white-color" target="_blank" href="https://soulcats.itch.io/remember-meow"><b>Itch.io page!</b></a>
+            </div>
+
+            <div class="ratio ratio-16x9 project-video">
+              <video controls>
+                <source src="Movies/Opening.mp4" type="video/mp4"></video>
+              </video>
+            </div>
+
+          </div>
         </div>
-        <div class="modal-body modal-body-margin">
+      </div>
+    </div>
+  </div>
+  <!-- End of Modal RememberMeow -->
 
-          <div class="modal-description">
-            Remember Meow is the result of the master of videogames in the UPF BSM. In this project the team was of 9 members, 3 artists and 6 programmers. Thanks to this project I achieve a more realistic and profesional approach to videogame design.
+  <!-- Modal Dixie -->
+  <div id="DixieModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-dialog" role="document">
+        <div id="rm-modal" class="modal-content">
+          <div class="text-center">
+            <h1 class="modal-title modal-main-title">Dixie</h1>
+            <div class="project-info row">
+              <div class="">
+                <table class="table-info-project">
+                  <tr>
+                    <td class="project-info-cell"><b>Software used</b></td>
+                    <td class="project-info-cell project-info-cell-separation">Sublime Text, Chrome</td>
+                  </tr>
+                  <tr>
+                    <td class="project-info-cell"><b>Languages used</b></td>
+                    <td class="project-info-cell project-info-cell-separation">HTML5, CSS, JS</td>
+                  </tr>
+                  <tr>
+                    <td class="project-info-cell"><b>Primary Roles</b></td>
+                    <td class="project-info-cell project-info-cell-separation">Design, coding</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
           </div>
+          <div class="modal-body modal-body-margin">
 
-          <div class="modal-link-to-test text-center">
-            Download the game from our <a class="white-color" target="_blank" href="https://soulcats.itch.io/remember-meow"><b>Itch.io page!</b></a>
+            <div class="modal-description text-center">
+              Dixie is the result of my final degree project of my bachelor in Computer Engineering at UPF, an online graph-oriented particle motor. This motor allows to create conditions
+            </div>
+
+            <div class="modal-link-to-test text-center">
+              You can try this project on my <a class="white-color" target="_blank" href="https://pagunasa.github.io/Dixie/"><b>Dixie webpage</b></a> and check the documentation on <a class="white-color" target="_blank" href="https://github.com/Pagunasa/Dixie"><b>Github</b></a>
+            </div>
+
+            <div class="modal-description text-center">
+              You can see some examples on the following carousel:
+            </div>
+
+            <div class="ratio ratio-16x9 project-video">
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Images/DixieExamples/Fire.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/DixieExamples/Forces.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/DixieExamples/Explosions.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
           </div>
-
-          <div class="ratio ratio-16x9 project-video">
-            <video controls>
-              <source src="Movies/Opening.mp4" type="video/mp4"></video>
-            </video>
-          </div>
-
         </div>
       </div>
     </div>
   </div>
 </div>
+  <!-- End of Modal Dixie -->
 
-<div id="DixieModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-dialog" role="document">
-      <div id="rm-modal" class="modal-content">
-        <div class="text-center">
-          <h1 class="modal-title modal-main-title">Dixie</h1>
-          <div class="project-info row">
-            <div class="">
-              <table class="table-info-project">
-                <tr>
-                  <td class="project-info-cell"><b>Software used</b></td>
-                  <td class="project-info-cell project-info-cell-separation">Sublime Text, Chrome</td>
-                </tr>
-                <tr>
-                  <td class="project-info-cell"><b>Languages used</b></td>
-                  <td class="project-info-cell project-info-cell-separation">HTML5, CSS, JS</td>
-                </tr>
-                <tr>
-                  <td class="project-info-cell"><b>Primary Roles</b></td>
-                  <td class="project-info-cell project-info-cell-separation">Design, coding</td>
-                </tr>
-              </table>
+  <!-- Modal AI Custom -->
+  <div id="AICustomModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-dialog" role="document">
+        <div id="rm-modal" class="modal-content">
+          <div class="text-center">
+            <h1 class="modal-title modal-main-title">AI Custom Engine</h1>
+            <div class="project-info row">
+              <div class="">
+                <table class="table-info-project">
+                  <tr>
+                    <td class="project-info-cell"><b>Software used</b></td>
+                    <td class="project-info-cell project-info-cell-separation">C++ Custom Engine</td>
+                  </tr>
+                  <tr>
+                    <td class="project-info-cell"><b>Languages used</b></td>
+                    <td class="project-info-cell project-info-cell-separation">C++, LUA</td>
+                  </tr>
+                  <tr>
+                    <td class="project-info-cell"><b>Primary Roles</b></td>
+                    <td class="project-info-cell project-info-cell-separation">Design, coding</td>
+                  </tr>
+                </table>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="modal-body modal-body-margin">
+          <div class="modal-body modal-body-margin">
 
-          <div class="modal-description text-center">
-            Dixie is the result of my final degree project of my bachelor in Computer Engineering at UPF, an online graph-oriented particle motor.
-          </div>
+            <div class="modal-description">
+              Remember Meow is the result of the master of videogames in the UPF BSM. In this project the team was of 9 members, 3 artists and 6 programmers. Thanks to this project I achieve a more realistic and profesional approach to videogame design.
+            </div>
 
-          <div class="modal-link-to-test text-center">
-            You can try this project on my <a class="white-color" target="_blank" href="https://pagunasa.github.io/Dixie/"><b>Dixie webpage</b></a> and check the documentation on <a class="white-color" target="_blank" href="https://github.com/Pagunasa/Dixie"><b>Github</b></a>
-          </div>
+            <div class="ratio ratio-16x9 project-video">
+              <video controls>
+                <source src="Movies/CustomAI.mp4" type="video/mp4"></video>
+              </video>
+            </div>
 
-          <div class="ratio ratio-16x9 project-video">
-            <video controls>
-              <source src="Movies/Opening.mp4" type="video/mp4"></video>
-            </video>
           </div>
-        
         </div>
       </div>
     </div>
   </div>
-</div>
+  <!-- End of Modal AI Custom -->
 
+  <!-- Modal Cardgeon -->
+  <div id="CardgeonModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-dialog" role="document">
+        <div id="rm-modal" class="modal-content">
+          <div class="text-center">
+            <h1 class="modal-title modal-main-title">Cardgeon</h1>
+            <div class="project-info row">
+              <div class="">
+                <table class="table-info-project">
+                  <tr>
+                    <td class="project-info-cell"><b>Software used</b></td>
+                    <td class="project-info-cell project-info-cell-separation">LÖVE</td>
+                  </tr>
+                  <tr>
+                    <td class="project-info-cell"><b>Languages used</b></td>
+                    <td class="project-info-cell project-info-cell-separation">LUA</td>
+                  </tr>
+                  <tr>
+                    <td class="project-info-cell"><b>Primary Roles</b></td>
+                    <td class="project-info-cell project-info-cell-separation">Design, coding</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body modal-body-margin">
 
+            <div class="modal-description">
+              Remember Meow is the result of the master of videogames in the UPF BSM. In this project the team was of 9 members, 3 artists and 6 programmers. Thanks to this project I achieve a more realistic and profesional approach to videogame design.
+            </div>
+
+            <div class="ratio ratio-16x9 project-video">
+              <video controls>
+                <source src="Movies/Cardgeon.mp4" type="video/mp4"></video>
+              </video>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Modal Cardgeon -->
+
+  <!-- Modal Neeras -->
+  <div id="NeerasModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-dialog" role="document">
+        <div id="rm-modal" class="modal-content">
+          <div class="text-center">
+            <h1 class="modal-title modal-main-title">Neera's Mission</h1>
+            <div class="project-info row">
+              <div class="">
+                <table class="table-info-project">
+                  <tr>
+                    <td class="project-info-cell"><b>Software used</b></td>
+                    <td class="project-info-cell project-info-cell-separation">C++ Custom Engine</td>
+                  </tr>
+                  <tr>
+                    <td class="project-info-cell"><b>Languages used</b></td>
+                    <td class="project-info-cell project-info-cell-separation">C++</td>
+                  </tr>
+                  <tr>
+                    <td class="project-info-cell"><b>Primary Roles</b></td>
+                    <td class="project-info-cell project-info-cell-separation">Design, coding</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body modal-body-margin">
+
+            <div class="modal-description">
+              Remember Meow is the result of the master of videogames in the UPF BSM. In this project the team was of 9 members, 3 artists and 6 programmers. Thanks to this project I achieve a more realistic and profesional approach to videogame design.
+            </div>
+
+            <div class="ratio ratio-16x9 project-video">
+              <video controls>
+                <source src="Movies/Neeras.mp4" type="video/mp4"></video>
+              </video>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Modal Cardgeon -->
   <script src="js/jquery-3.7.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

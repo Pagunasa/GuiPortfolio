@@ -20,7 +20,8 @@
 }
 
 .bg-about-me {
-  background-color: rgb(1, 71, 0) !important;
+  background-color: rgb(59, 0, 117) !important;
+  background-color: rgb(38, 1, 75) !important;
 }
 
 .bg-projects {
@@ -291,6 +292,18 @@
 
 .university-tag {
   background-color: rgb(116, 6, 39);  
+}
+
+.html-css-tag {
+  background-color: rgb(206, 108, 59);  
+}
+
+.js-tag {
+  background-color: rgb(37, 111, 37);  
+}
+
+.custom-engine-tag {
+  background-color: rgb(158, 158, 0);  
 }
 
 
