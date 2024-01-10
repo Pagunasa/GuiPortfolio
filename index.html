@@ -44,7 +44,15 @@
               </a>
             </li>
             <li class="nav-item" data-bs-dismiss="offcanvas">
-              <a class="nav-link active white-icon offcanvas-item-pb offcanvas-item-ps" aria-current="Projects" href="#Contact">
+              <a class="nav-link active white-icon offcanvas-item-pb offcanvas-item-ps" aria-current="Curriculum" href="#Contact">
+                <div class="offcanvas-item-icon">
+                  <i class="fa fa-solid fa fa fa-file fa-lg"></i>
+                </div>
+                <span class="ps-2"> Curriculum </span>
+              </a>
+            </li>
+            <li class="nav-item" data-bs-dismiss="offcanvas">
+              <a class="nav-link active white-icon offcanvas-item-pb offcanvas-item-ps" aria-current="Contact" href="#Contact">
                 <div class="offcanvas-item-icon">
                   <i class="fa fa-solid fa fa-comments fa-lg"></i>
                 </div>
@@ -66,9 +74,11 @@
   <div class="container-fluid bg-about-me">
     <div name="AboutMe" id="AboutMe" class="white-color about-me-content">
       <p class="h1 about-me-title">About me</p>
-      Hi I'm Gui! A game programmer and dessigner from Barcelona, since I was little I love the world of videogames and I've always wanted to learn how to create my own games. I start playing with gamemaker at 14 and created my first videogame when I was 17 as a final project for high school, it was a very simple legend of zelda like game with a top-down camera. I graduated from <a class="white-color" target="_blank" href="https://mastervideojuegos.bsm.upf.edu/"><b>UPF BSM</b></a> studying the master Videogames: Design, Creation and Programming and from <a class="white-color" target="_blank" href="https://www.upf.edu/web/etic/grau-en-enginyeria-en-informatica"><b>UPF</b></a> where I study Computer Engineering.<p></p>
+      Hi, I'm Gui! A game programmer, and designer from Barcelona. Since my childhood, I've loved the world of video games, always wanting to learn how to bring my ideas to life. I started experimenting with Gamemaker at the age of 14 and created my first video game at 17 as a final project for high school. It was a very simple Legend of Zelda-like game with a top-down camera. <p></p>
 
-      In this website you'll be able to see some of the projects that I've have the oportunity to work and some others that are some personal things just to experiment and have fun. I have a strong perseverance and motivation in learning new tings and improve and my big imagination allways brings me some crazy ideas. I allways like to polish my work to achieve the best possible version.<p></p>
+      I graduated from <a class="white-color" target="_blank" href="https://mastervideojuegos.bsm.upf.edu/"><b>UPF BSM</b></a>, where I studied the Master in Videogames: Design, Creation, and Programming, and from <a class="white-color" target="_blank" href="https://www.upf.edu/web/etic/grau-en-enginyeria-en-informatica"><b>UPF</b></a> where I studied Computer Engineering. On this website, you'll be able to see some of the projects that I've had the oportunity to work on, as well as personal work for experimentation and fun.<p></p>
+
+      I have a strong perseverance and motivation to learn and improve, my vivid imagination often brings me some crazy ideas. I always polish my work to achieve the best possible version.<p></p>
 
       If you have any questions fell free to <a class="white-color" href="#"><b>contact me</b> <i class="fa fa-solid fa fa-comments"></i></a>
     </div>
@@ -283,9 +293,17 @@
               </table>
             </div>
         </div>
-
       </div>
   </div>
+
+  <!-- Contact Me -->
+  <div class="container-fluid bg-about-me">
+    <div name="ContactMe" id="Contact" class="white-color contact-container about-me-content">
+      <p class="h1 about-me-title">Contact me</p>
+      Feel free to send a message to the email: gui.martinez1996@gmail.com, I'll try to answer as soon as possible!!
+    </div>
+  </div>
+  <!-- End of Contact Me -->
 
   <!-- Modal RememberMeow -->
   <div id="RememberMeowModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -316,7 +334,7 @@
           <div class="modal-body modal-body-margin">
 
             <div class="modal-description">
-              Remember Meow is the result of the master of videogames in the UPF BSM. In this project the team was of 9 members, 3 artists and 6 programmers. Thanks to this project I achieve a more realistic and profesional approach to videogame design.
+              Remember Meow is the result of the master's degree project in video games at UPF BSM. In this project, the team consisted of 9 members: 3 artists and 6 programmers. My primary tasks were to design and implement engaging game mechanics, create useful tools for the team, work on the VFX, and optimize the game. Thanks to this project I achieve a more realistic and professional approach to video game design.
             </div>
 
             <div class="modal-link-to-test text-center">
@@ -327,6 +345,10 @@
               <video controls>
                 <source src="Movies/Opening.mp4" type="video/mp4"></video>
               </video>
+            </div>
+
+            <div class="modal-description mt-4">
+              In Remember Meow, you play as a cat doll in a strange house infested with evil spirits. You can't remember anything of yourself, but a strange voice guides you around the house. Each time a puzzle is solved, you obtain a memory and advance through the house. 
             </div>
 
           </div>
@@ -364,8 +386,10 @@
           </div>
           <div class="modal-body modal-body-margin">
 
-            <div class="modal-description text-center">
-              Dixie is the result of my final degree project of my bachelor in Computer Engineering at UPF, an online graph-oriented particle motor. This motor allows to create conditions
+            <div class="modal-description">
+              Dixie is the result of my final degree project for my bachelor's in Computer Engineering at UPF, an online graph-oriented particle motor. 
+              <p></p>
+              Dixie allows you to create and export particle systems by customizing and connecting nodes. You can add forces, conditions, or modifiers for various particle properties such as speed, color, size, and lifetime.
             </div>
 
             <div class="modal-link-to-test text-center">
@@ -441,13 +465,30 @@
           <div class="modal-body modal-body-margin">
 
             <div class="modal-description">
-              Remember Meow is the result of the master of videogames in the UPF BSM. In this project the team was of 9 members, 3 artists and 6 programmers. Thanks to this project I achieve a more realistic and profesional approach to videogame design.
+              This is an exercise I completed during the master of video games at UPF BSM. I designed an enemy with the logic to rotate around the player while maintaining a certain distance. To make it more interesting, I imagine these enemies moving in hordes. For this reason, I use a shared blackboard to keep track of the number of enemies in attack mode and manage a maximum number, as well as to assign roles between wandering, moving, and attacking. If you scroll down a bit, you'll find the diagram illustrating its behavior tree.
             </div>
 
             <div class="ratio ratio-16x9 project-video">
               <video controls>
                 <source src="Movies/CustomAI.mp4" type="video/mp4"></video>
               </video>
+            </div>
+
+            <div class="accordion mt-4" id="accordionExample">
+              <div class="accordion-item my-accordion-container">
+                <h2 class="accordion-header">
+                  
+                    <button class="accordion-button my-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <b>Behavior tree</b>
+                    </button>
+                  
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse my-accordion-body" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <img src="Images/AICustomEngineBTTrans.png" class="img-fluid" alt="...">
+                  </div>
+                </div>
+              </div>
             </div>
 
           </div>
@@ -486,7 +527,9 @@
           <div class="modal-body modal-body-margin">
 
             <div class="modal-description">
-              Remember Meow is the result of the master of videogames in the UPF BSM. In this project the team was of 9 members, 3 artists and 6 programmers. Thanks to this project I achieve a more realistic and profesional approach to videogame design.
+              Cardgeon is a deckbuilding game that is the final project of the course CS50's Introduction to Game Development, Video Games, and Programming. It is fully programmed in Lua using the framework LÖVE and takes inspiration from games such as Slay the Spire.
+              <p></p>
+              The main mechanic is to advance between rooms of a dungeon filled with monsters, managing your mana for cast cards. Every time a room is cleared you'll choose a new card and advance to the next room. Eventually, you'll find the final boss, and if you can kill it, you'll win the game, but if you die you'll have to start a new run.
             </div>
 
             <div class="ratio ratio-16x9 project-video">
@@ -531,7 +574,9 @@
           <div class="modal-body modal-body-margin">
 
             <div class="modal-description">
-              Remember Meow is the result of the master of videogames in the UPF BSM. In this project the team was of 9 members, 3 artists and 6 programmers. Thanks to this project I achieve a more realistic and profesional approach to videogame design.
+              Neera's Mission is the final project of the Electronic Games course at UPF. It is fully programmed in C++ using a custom framework developed and refined during the course.
+              <p></p>
+              It is a first-person, turn-based game in which the main mechanic involves exploring rooms of a dark spaceship and repairing generators while engaging in battles with aliens that have taken control of the ship. Once all generators in a room are fixed, a door will open, granting access to a new area. The primary goal is to repair the ship's main generator and successfully escape.
             </div>
 
             <div class="ratio ratio-16x9 project-video">

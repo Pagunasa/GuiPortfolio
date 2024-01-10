@@ -36,6 +36,26 @@
   margin-bottom: -56px;
 }
 
+/* Accordion  */
+.my-accordion-container {
+  border: none !important;
+  border-color: rgb(40, 40, 40) !important;
+}
+
+.my-accordion-button {
+  background-color: rgb(219, 153, 90) !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.my-accordion-body {
+  background-color: rgb(40, 40, 40) !important;
+}
+
+/* Contact me */
+.contact-container {
+  text-align: center !important;
+}
+
 /* About me */
 .about-me-title {
   padding-top: 1rem !important;
